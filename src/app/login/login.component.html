@@ -1,0 +1,5 @@
+<div>
+    <input type="text" placeholder="Alterar Nome" [(ngModel)]="nomeUpdated">
+    <button (click)="onChangeName()">Alterar nome</button>
+    <p>Meu estado atual: {{ nome | async }}</p>
+</div>
